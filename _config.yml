@@ -1,8 +1,5 @@
-layout_spectrum: 1
-typography_spectrum: 0.2755102
 color:
   saturation: 0.3904404
-  lightness: 0.5225564
   brandStrength: 0.5032223
   rhythmicContrast: 0.8147153
   brandColors:
@@ -11,4 +8,19 @@ color:
     - '#CD5334'
     - '#EDB88B'
     - '#FAD8D6'
+  lightness: 0.5225564
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 1
+typography_spectrum: 0.2755102
 name: 'N'
